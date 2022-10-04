@@ -1,0 +1,39 @@
+.widget-container {
+    background-color: rgb(250, 248, 248);
+    max-width: 20%; 
+    margin-left: 5rem;
+    text-align: center;
+  }
+  
+  .widget-button {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 2rem;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+  }
+  
+  .popover {
+    position: absolute;
+    width: 240px;
+    z-index: 999;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 5px;
+  }
+  
+  .popover-title {
+  background-color: rgb(172, 169, 169);
+  font-weight: 700;
+  padding: 1rem;
+  }
+  
+  .popover-content {
+  padding: 1rem;
+  }
+  
+  .hidden {
+  opacity: 0;
+  }
